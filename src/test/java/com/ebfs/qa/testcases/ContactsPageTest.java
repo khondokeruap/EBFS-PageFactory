@@ -29,10 +29,7 @@ public class ContactsPageTest extends TestBase{
 	   
 	public ContactsPageTest(){
 			super();
-			
-	}
-	
-	
+			}
 	/**
 	 * @throws InterruptedException
 	 */
@@ -51,19 +48,16 @@ public class ContactsPageTest extends TestBase{
 		ExtentTestManager.getTest().log(Status.INFO, "Verify Contact Us Page Label");
 		Assert.assertTrue(contactsPage.verifyContactsLabel(), ContactsPageTestProperties.ERROR_MSG);
 	}
-	
-		
+
 	@DataProvider
 	public Object[][] getCRMTestData(){
 		Object data[][] = TestUtil.getTestData(sheetName);
 		return data;
 	}
 	
-	
 	@AfterMethod
 	public void tearDown(){
 		driver.quit();
 	}
-	
-		
+
 }

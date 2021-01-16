@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-14T04:36:52Z" name="EBFS Application Test Automation Test Suite" finished-at="2021-01-14T04:37:03Z" duration-ms="10743">
+    <groups>
+    </groups>
+    <test started-at="2021-01-14T04:36:52Z" name="EBFS App Test Cases" finished-at="2021-01-14T04:37:03Z" duration-ms="10743">
+      <class name="com.ebfs.qa.testcases.google">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ebfs.qa.testcases.google@4148db48]" started-at="2021-01-14T04:36:52Z" name="setUp" finished-at="2021-01-14T04:37:00Z" duration-ms="8400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchboxSearchTest()[pri:0, instance:com.ebfs.qa.testcases.google@4148db48]" started-at="2021-01-14T04:37:00Z" name="searchboxSearchTest" finished-at="2021-01-14T04:37:01Z" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchboxSearchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebfs.qa.testcases.google@4148db48]" started-at="2021-01-14T04:37:01Z" name="tearDown" finished-at="2021-01-14T04:37:03Z" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebfs.qa.testcases.google -->
+    </test> <!-- EBFS App Test Cases -->
+  </suite> <!-- EBFS Application Test Automation Test Suite -->
+</testng-results>

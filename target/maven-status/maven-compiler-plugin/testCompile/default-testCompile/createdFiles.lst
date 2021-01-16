@@ -1,0 +1,9 @@
+com\ebfs\qa\testcases\google.class
+com\ebfs\qa\testcases\ProductCategoryTest.class
+com\ebfs\qa\testcase\properties\ProductCartTestProperties.class
+com\ebfs\qa\testcases\HomePageTest.class
+com\ebfs\qa\testcase\properties\ProductCategoryTestProperties.class
+com\ebfs\qa\testcases\ProductCartTest.class
+com\ebfs\qa\testcase\properties\HomePageTestProperties.class
+com\ebfs\qa\testcases\ContactsPageTest.class
+com\ebfs\qa\testcase\properties\ContactsPageTestProperties.class
