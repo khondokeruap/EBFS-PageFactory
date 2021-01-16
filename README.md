@@ -19,7 +19,7 @@ Dependency:
 1. Go to https://github.com/compiliaacademy/EBFS-PageFactory.git
 2. Click on Fork to create a copy of the project
 3. Run the "git clone https://github.com/compiliaacademy/EBFS-PageFactory.git" command
-4. Run the "cd PageObjectModel" command
+4. Run the "cd EBFS-PageFactory" command
 5. Run "mvn clean test" and enjoy!!
 ```
 
