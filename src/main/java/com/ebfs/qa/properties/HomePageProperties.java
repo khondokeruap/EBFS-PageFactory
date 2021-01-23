@@ -34,5 +34,13 @@ public interface HomePageProperties {
 	public final String DOB_MONTH_ID = "months";
 	public final String DOB_YEAR_ID = "years";
 	public final String SUBMIT_REG_ID = "submitAccount";
+	public final String BLANK_SEARCH_XPATH = "//p[@class='alert alert-warning']";
+	public final String SEARCH_FOUND_XPATH= "//span[@class='lighter']";
+	public final String SEARCH_FOUND_HEADING_XPATH = "//h1[@class='page-heading  product-listing']";
+
+
+
+
+	public final String BLANK = "";
 
 }

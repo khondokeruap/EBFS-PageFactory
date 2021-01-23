@@ -102,6 +102,11 @@ public class HomePage extends TestBase {
 	@FindBy(id = HomePageProperties.SUBMIT_REG_ID)
 	WebElement submitReg;
 
+	@FindBy(xpath = HomePageProperties.BLANK_SEARCH_XPATH)
+	WebElement blank;
+	@FindBy(xpath = HomePageProperties.SEARCH_FOUND_HEADING_XPATH)
+	WebElement searchFound;
+
 	// Initializing the Page Objects:
 	public HomePage() {
 		PageFactory.initElements(driver, this);
@@ -193,4 +198,11 @@ public class HomePage extends TestBase {
 		year.selectByIndex(21);
 		submitReg.click();
 	}
+	public boolean blankSearchBox(){
+		return blank.isDisplayed();
+	}
+	public boolean foundSearchBox(){
+		return searchFound.isDisplayed();
+	}
+
 }

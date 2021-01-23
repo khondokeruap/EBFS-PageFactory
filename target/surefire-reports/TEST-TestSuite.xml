@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="11.432" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="332.692" tests="37" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -26,7 +26,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\mvn\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Git\cmd;C:\mvn\apache-maven-3.6.3\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\mvn\apache-maven-3.6.3\bin;C:\Users\naimu\AppData\Roaming\npm;."/>
     <property name="maven.conf" value="C:\mvn\apache-maven-3.6.3\bin\../conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="59.0"/>
@@ -59,5 +59,41 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="searchboxSearchTest" classname="com.ebfs.qa.testcases.google" time="1.167"/>
+  <testcase name="Search" classname="com.ebfs.qa.testcases.google" time="1.28"/>
+  <testcase name="Search" classname="com.ebfs.qa.testcases.google" time="1.26"/>
+  <testcase name="Search" classname="com.ebfs.qa.testcases.google" time="0.98"/>
+  <testcase name="Search" classname="com.ebfs.qa.testcases.google" time="0.978"/>
+  <testcase name="Search" classname="com.ebfs.qa.testcases.google" time="1.03"/>
+  <testcase name="Search" classname="com.ebfs.qa.testcases.google" time="1.031"/>
+  <testcase name="Search" classname="com.ebfs.qa.testcases.google" time="0.991"/>
+  <testcase name="Search" classname="com.ebfs.qa.testcases.google" time="1.091"/>
+  <testcase name="Search" classname="com.ebfs.qa.testcases.google" time="0.949"/>
+  <testcase name="Search" classname="com.ebfs.qa.testcases.google" time="1.193"/>
+  <testcase name="Search" classname="com.ebfs.qa.testcases.google" time="1.102"/>
+  <testcase name="SearchProduct" classname="com.ebfs.qa.testcases.google" time="1.223"/>
+  <testcase name="SearchProduct" classname="com.ebfs.qa.testcases.google" time="1.024"/>
+  <testcase name="SearchProduct" classname="com.ebfs.qa.testcases.google" time="1.098"/>
+  <testcase name="SearchProduct" classname="com.ebfs.qa.testcases.google" time="1.102"/>
+  <testcase name="SearchProduct" classname="com.ebfs.qa.testcases.google" time="1.176"/>
+  <testcase name="SearchProduct" classname="com.ebfs.qa.testcases.google" time="1.328"/>
+  <testcase name="blankSearch" classname="com.ebfs.qa.testcases.google" time="1.001"/>
+  <testcase name="characterSearch" classname="com.ebfs.qa.testcases.google" time="1.053"/>
+  <testcase name="characterSearch" classname="com.ebfs.qa.testcases.google" time="0.983"/>
+  <testcase name="characterSearch" classname="com.ebfs.qa.testcases.google" time="1.07"/>
+  <testcase name="characterSearch" classname="com.ebfs.qa.testcases.google" time="0.979"/>
+  <testcase name="characterSearch" classname="com.ebfs.qa.testcases.google" time="1.097"/>
+  <testcase name="characterSearch" classname="com.ebfs.qa.testcases.google" time="1.161"/>
+  <testcase name="characterSearch" classname="com.ebfs.qa.testcases.google" time="0.998"/>
+  <testcase name="characterSearch" classname="com.ebfs.qa.testcases.google" time="1.147"/>
+  <testcase name="characterSearch" classname="com.ebfs.qa.testcases.google" time="1.116"/>
+  <testcase name="characterSearch" classname="com.ebfs.qa.testcases.google" time="0.997"/>
+  <testcase name="characterSearch" classname="com.ebfs.qa.testcases.google" time="1.108"/>
+  <testcase name="characterSearch" classname="com.ebfs.qa.testcases.google" time="0.961"/>
+  <testcase name="characterSearch" classname="com.ebfs.qa.testcases.google" time="1.14"/>
+  <testcase name="characterSearch" classname="com.ebfs.qa.testcases.google" time="0.967"/>
+  <testcase name="userButtonOnlySearch" classname="com.ebfs.qa.testcases.google" time="1.064"/>
+  <testcase name="userClickOnlySearch" classname="com.ebfs.qa.testcases.google" time="1.104"/>
+  <testcase name="userIntSearch" classname="com.ebfs.qa.testcases.google" time="1.049"/>
+  <testcase name="userIntSearch" classname="com.ebfs.qa.testcases.google" time="1.135"/>
+  <testcase name="userIntSearch" classname="com.ebfs.qa.testcases.google" time="1.084"/>
 </testsuite>
